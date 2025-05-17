@@ -4,9 +4,7 @@ import { ShoppingBagIcon, UserCircleIcon } from "@heroicons/react/24/outline";
 const Header = () => {
   return (
     <header className="flex justify-between items-center px-4 md:px-8 py-5 w-full absolute top-0 z-30">
-      {/* Logo Section */}
       <div className="flex items-center space-x-2 group">
-        {/* Uncomment if using logo image */}
         <img 
           src="/logo.png" 
           alt="Premium Spirits" 
